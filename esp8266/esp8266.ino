@@ -1,9 +1,10 @@
 
 #include <ESP8266WiFi.h>
-#include <time.h>
+// #include <time.h>
+#include <WiFiUdp.h>
 
-const char* ssid = "NatchPai";                                //ใส่ชื่อ SSID Wifi
-const char* password = "powerpay4";                     //ใส่รหัสผ่าน
+const char* ssid = "";                                //ใส่ชื่อ SSID Wifi
+const char* password = "";                     //ใส่รหัสผ่าน
 
 int timezone = 7 * 3600;                    //ตั้งค่า TimeZone ตามเวลาประเทศไทย
 int dst = 0;                                //กำหนดค่า Date Swing Time

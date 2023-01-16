@@ -55,8 +55,7 @@ String lastText = ";";
 
 // FIXABLE!! DO NOT SWITCH INDEX PLEASE
 char *Dict[] = {"on", "off", "step set left", "step set right", "step set one", "reset", "mode", "show", "hide", "loop off", "loop on", "pause", "play", "status"};
-int numberOfArray = 14;  // When edit *Dict[] please change numberOfArray("array length"). thank you❤️
-
+int numberOfArray = 14;  // When edit *Dict[] please change numberOfArray("array length"). thank you❤️. 
 String inputCommand = "";
 
 void setup() {

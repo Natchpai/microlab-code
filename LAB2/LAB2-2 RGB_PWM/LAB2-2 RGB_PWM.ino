@@ -17,7 +17,7 @@ void resetPreviousDataSet() {
 }
 
 void searchTarget(String data) {
-  String IDKvalue;
+  String IDKvalue; 
   for (int i = 0; i < data.length(); i++) {
     if (data[i] == 'R' || data[i] == 'r') {
       redValue = IDKvalue.toInt();

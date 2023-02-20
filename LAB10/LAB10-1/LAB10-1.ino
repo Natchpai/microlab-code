@@ -40,6 +40,7 @@ void loop() {
   }
 
   dataReceived = analogRead(A0);
+  Serial.println(dataReceived);
   if ((dataReceived <= 200) && (millis() - previous) > 5000 ) {
     previous = millis();
     LINE.notify("มันไม่สว่างสดใสเลย");
